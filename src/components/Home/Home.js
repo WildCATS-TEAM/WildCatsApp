@@ -1,16 +1,35 @@
 import React from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, View, Button } from "react-native";
 
-const Home = () => {
+const Home = ({ navigation }) => {
   return (
     <View style={styles.container}>
-      <Text>Welcome to WildCats Homepage!!</Text>
+      <View style={styles.content}>
+        <Button
+          title="Start Self Exam"
+          onPress={() => navigation.navigate("Self Examination")}
+        />
+        <Button
+          title="Find Doctors"
+          onPress={() => navigation.navigate("Find Doctors")}
+        />
+        <Button
+          title="Breast Cancer Symptoms"
+          onPress={() => navigation.navigate("Breast Cancer Info")}
+        />
+      </View>
     </View>
   );
 };
 
 const styles = StyleSheet.create({
   container: {
+    flex: 1,
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "flex-start",
+  },
+  content: {
     flex: 1,
     backgroundColor: "#fff",
     alignItems: "center",
