@@ -1,14 +1,10 @@
-import { StatusBar } from "expo-status-bar";
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 
-import Home from "./src/components/Home";
-
-const App = () => {
+const Home = () => {
   return (
     <View style={styles.container}>
-      <Home />
-      <StatusBar style="auto" />
+      <Text>Welcome to WildCats Homepage!!</Text>
     </View>
   );
 };
@@ -22,4 +18,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default Home;
