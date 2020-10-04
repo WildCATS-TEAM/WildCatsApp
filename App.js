@@ -1,5 +1,7 @@
 import React from "react";
-import { StyleSheet } from "react-native";
+import { StyleSheet, View, TouchableOpacity } from "react-native";
+import { Header } from "react-native-elements";
+
 import HomeScreen from "./src/components/Home";
 import SelfExamScreen from "./src/components/SelfExam";
 import FindDoctorsScreen from "./src/components/FindDoctors";
@@ -13,7 +15,11 @@ const App = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name="Home" component={HomeScreen} />
+        <Stack.Screen
+          name="Home"
+          component={HomeScreen}
+          options={{ headerShown: true }}
+        />
         <Stack.Screen
           name="Self Examination"
           component={SelfExamScreen}
