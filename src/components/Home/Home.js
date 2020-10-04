@@ -6,10 +6,9 @@ import Icon from "react-native-vector-icons/FontAwesome";
 import NavBar from "../NavBar";
 
 const Home = ({ navigation }) => {
-  console.log(navigation);
   return (
     <View style={styles.container}>
-      <NavBar />
+      <NavBar onPressHome={() => navigation.navigate("Home")} />
       <View style={styles.content}>
         <View style={styles.selfExamSection}>
           <View style={{ marginBottom: 0 }}>
@@ -23,8 +22,12 @@ const Home = ({ navigation }) => {
           <Button
             icon={
               <Icon
+                containerStyle={{
+                  alignItems: "center",
+                  justifyContent: "center",
+                }}
                 name="arrow-right"
-                style={{ marginLeft: 10 }}
+                style={{ marginLeft: 10, paddingTop: 5 }}
                 size={15}
                 color="white"
               />
@@ -41,14 +44,14 @@ const Home = ({ navigation }) => {
           onPress={() => navigation.navigate("Find Doctors")}
         >
           <View style={styles.findDoctorsSection}>
+            <Icon
+              name="map-marker"
+              style={{ marginRight: 9 }}
+              size={30}
+              color="#ffdef7"
+            />
             <Text h1 h1Style={styles.findDoctorsHeader}>
-              Find doctors in your area{" "}
-              <Icon
-                name="arrow-right"
-                style={{ marginLeft: 10 }}
-                size={15}
-                color="white"
-              />
+              Find doctors in your area
             </Text>
           </View>
         </TouchableOpacity>
@@ -57,14 +60,14 @@ const Home = ({ navigation }) => {
           onPress={() => navigation.navigate("Breast Cancer Info")}
         >
           <View style={styles.breastCancerInfoSection}>
+            <Icon
+              name="info-circle"
+              style={{ marginRight: 9 }}
+              size={30}
+              color="#474747"
+            />
             <Text h1 h1Style={styles.breastCancerInfoHeader}>
-              Breast Cancer Symptoms{" "}
-              <Icon
-                name="arrow-right"
-                style={{ marginLeft: 10 }}
-                size={15}
-                color="white"
-              />
+              Breast Cancer Symptoms
             </Text>
           </View>
         </TouchableOpacity>
@@ -89,22 +92,28 @@ const styles = StyleSheet.create({
     justifyContent: "space-around",
     backgroundColor: "#ffd1f4",
   },
-  findDoctorsSection: {
-    justifyContent: "center",
-    flex: 1,
-    backgroundColor: "#474747",
-  },
   startButton: {
     width: "auto",
     // marginTop: 0,
     paddingVertical: 10,
     paddingHorizontal: 30,
     alignSelf: "center",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  findDoctorsSection: {
+    flex: 1,
+    backgroundColor: "#474747",
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "center",
   },
   breastCancerInfoSection: {
     flex: 1,
-    justifyContent: "center",
     backgroundColor: "#8ac4ff",
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "center",
   },
   selfExamHeader: {
     fontSize: 40,
@@ -114,6 +123,8 @@ const styles = StyleSheet.create({
     fontSize: 30,
     color: "#ffdef7",
     textAlign: "center",
+    // alignItems: "center",
+    // justifyContent: "center",
   },
   breastCancerInfoHeader: {
     fontSize: 30,

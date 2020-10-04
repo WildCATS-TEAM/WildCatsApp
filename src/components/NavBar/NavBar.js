@@ -1,7 +1,7 @@
 import React from "react";
 import { Header } from "react-native-elements";
 
-const NavBar = () => {
+const NavBar = ({ onPressHome }) => {
   return (
     <Header
       containerStyle={{
@@ -9,7 +9,7 @@ const NavBar = () => {
         paddingTop: 0,
         height: 60,
       }}
-      leftComponent={{ icon: "home", color: "#ff59cd" }}
+      leftComponent={{ icon: "home", color: "#ff59cd", onPress: onPressHome }}
       centerComponent={{
         text: "WildCats",
         style: { color: "#ffa6e4", fontWeight: "bold", fontSize: 20 },
