@@ -1,4 +1,116 @@
-const questions = [];
-const answers = [];
+const listOfQuestionsAndAnswers = [
+  {
+    step: 1,
+    description: "Description for step 1",
+    question_1: "First question",
+    options_1: ["No", "Yes"],
+    question_2: "Ask symptoms question",
+    options_2: ["Symptom 1", "Symptom 2", "Symptom 3"],
+    question_3: "What would you like to do next?",
+    options_3: [
+      "Find affordable exam near me",
+      "Learn more about breast cancer symptoms",
+      "Set a reminder to do self exam again in one month",
+    ],
+  },
+  {
+    step: 2,
+    description: "Description for step 2",
+    question_1: "First question",
+    options_1: ["No", "Yes"],
+    question_2: "Ask symptoms question",
+    options_2: ["Symptom 1", "Symptom 2", "Symptom 3"],
+    question_3: "What would you like to do next?",
+    options_3: [
+      "Find affordable exam near me",
+      "Learn more about breast cancer symptoms",
+      "Set a reminder to do self exam again in one month",
+    ],
+  },
+  {
+    step: 3,
+    description: "Description for step 3",
+    question_1: "First question",
+    options_1: ["No", "Yes"],
+    question_2: "Ask symptoms question",
+    options_2: ["Symptom 1", "Symptom 2", "Symptom 3"],
+    question_3: "What would you like to do next?",
+    options_3: [
+      "Find affordable exam near me",
+      "Learn more about breast cancer symptoms",
+      "Set a reminder to do self exam again in one month",
+    ],
+  },
+  {
+    step: 4,
+    description: "Description for step 4",
+    question_1: "First question",
+    options_1: ["No", "Yes"],
+    question_2: "Ask symptoms question",
+    options_2: ["Symptom 1", "Symptom 2", "Symptom 3"],
+    question_3: "What would you like to do next?",
+    options_3: [
+      "Find affordable exam near me",
+      "Learn more about breast cancer symptoms",
+      "Set a reminder to do self exam again in one month",
+    ],
+  },
+  {
+    step: 5,
+    description: "Description for step 5",
+    question_1: "First question",
+    options_1: ["No", "Yes"],
+    question_2: "Ask symptoms question",
+    options_2: ["Symptom 1", "Symptom 2", "Symptom 3"],
+    question_3: "What would you like to do next?",
+    options_3: [
+      "Find affordable exam near me",
+      "Learn more about breast cancer symptoms",
+      "Set a reminder to do self exam again in one month",
+    ],
+  },
+  {
+    step: 6,
+    description: "Description for step 6",
+    question_1: "First question",
+    options_1: ["No", "Yes"],
+    question_2: "Ask symptoms question",
+    options_2: ["Symptom 1", "Symptom 2", "Symptom 3"],
+    question_3: "What would you like to do next?",
+    options_3: [
+      "Find affordable exam near me",
+      "Learn more about breast cancer symptoms",
+      "Set a reminder to do self exam again in one month",
+    ],
+  },
+  {
+    step: 7,
+    description: "Description for step 7",
+    question_1: "First question",
+    options_1: ["No", "Yes"],
+    question_2: "Ask symptoms question",
+    options_2: ["Symptom 1", "Symptom 2", "Symptom 3"],
+    question_3: "What would you like to do next?",
+    options_3: [
+      "Find affordable exam near me",
+      "Learn more about breast cancer symptoms",
+      "Set a reminder to do self exam again in one month",
+    ],
+  },
+  {
+    step: 8,
+    description: "Description for step 8",
+    question_1: "First question",
+    options_1: ["No", "Yes"],
+    question_2: "Second question",
+    options_2: ["Symptom 1", "Symptom 2", "Symptom 3"],
+    question_3: "What would you like to do next?",
+    options_3: [
+      "Find affordable exam near me",
+      "Learn more about breast cancer symptoms",
+      "Set a reminder to do self exam again in one month",
+    ],
+  },
+];
 
-export { questions, answers };
+export { listOfQuestionsAndAnswers };
