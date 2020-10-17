@@ -6,6 +6,9 @@ import HomeScreen from "./src/components/Home";
 import SelfExamScreen from "./src/components/SelfExam";
 import FindDoctorsScreen from "./src/components/FindDoctors";
 import BreastCancerInfoScreen from "./src/components/BreastCancerInfo";
+import Dimpling from "./src/components/BreastCancerInfo/Dimpling";
+import Puckering from "./src/components/BreastCancerInfo/Puckering";
+import Discharge from "./src/components/BreastCancerInfo/Discharge";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 
@@ -30,6 +33,9 @@ const App = () => {
           name="Breast Cancer Info"
           component={BreastCancerInfoScreen}
         />
+        <Stack.Screen name="Dimpling" component={Dimpling} />
+        <Stack.Screen name="Puckering" component={Puckering} />
+        <Stack.Screen name="Discharge" component={Discharge} />
       </Stack.Navigator>
     </NavigationContainer>
   );
