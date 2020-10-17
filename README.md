@@ -3,7 +3,7 @@ React Native Mobile Application to prevent and detect early signs of breast canc
 
 # LIVE SIMULATOR: [Click Here](https://expo.io/appetize-simulator?url=https://expo.io/@a23235/wildcats&appetizeCode=tok_z5521ug12vy3h3yvybw77beap0)
 
-# DevPost Submission: [See the project](https://devpost.com/software/wildcats-gpwln6)
+# DevPost Submission: [See The Project Overview](https://devpost.com/software/wildcats-gpwln6)
 
 ## MVP
 - 10-minutes breast self examination
