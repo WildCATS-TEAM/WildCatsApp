@@ -21,12 +21,15 @@ const SelfExam = ({ navigation, width }) => {
     <View style={styles.container}>
       <NavBar onPressHome={() => navigation.navigate("Home")} />
 
-      <Card style={styles.container}>
+      <Card style={styles.cardContainer}>
         <Card.Title>Step {currentStep.step} of 8</Card.Title>
         <Card.Divider />
         <Card.Image
           source={currentStep.img}
-          style={{ height: 200, width: 200 }}
+          style={{
+            width: 350,
+            height: 250,
+          }}
         />
         {currentStep.boldText && (
           <Text style={{ marginTop: 20, fontWeight: "bold" }}>
@@ -37,8 +40,10 @@ const SelfExam = ({ navigation, width }) => {
           {currentStep.description}
         </Text>
         {currentStep.extra_info &&
-          currentStep.extra_info.map((info) => (
-            <Text style={{ marginBottom: 10 }}>{info}</Text>
+          currentStep.extra_info.map((info, index) => (
+            <Text key={index} style={{ marginBottom: 10 }}>
+              {info}
+            </Text>
           ))}
         <Text style={{ marginTop: 10, marginBottom: 20 }}>
           {currentStep[`question_${onQuestionNumber}`]}
@@ -107,6 +112,14 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: "#fff",
+    // justifyContent: "center",
+    // alignItems: "center",
+  },
+  cardContainer: {
+    // flex: 1,
+    backgroundColor: "#fff",
+    justifyContent: "center",
+    alignItems: "center",
   },
 });
 
