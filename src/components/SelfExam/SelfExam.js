@@ -21,7 +21,13 @@ const SelfExam = ({ navigation, width }) => {
     <View style={styles.container}>
       <NavBar onPressHome={() => navigation.navigate("Home")} />
 
-      <Card style={styles.cardContainer}>
+      <Card
+        style={styles.cardContainer}
+        containerStyle={{
+          backgroundColor: "#ffdef7",
+          borderRadius: 10,
+        }}
+      >
         <Card.Title>Step {currentStep.step} of 8</Card.Title>
         <Card.Divider />
         <Card.Image
@@ -111,13 +117,13 @@ const SelfExam = ({ navigation, width }) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
+    backgroundColor: "#474747",
     // justifyContent: "center",
     // alignItems: "center",
   },
   cardContainer: {
     // flex: 1,
-    backgroundColor: "#fff",
+    backgroundColor: "#ffdef7",
     justifyContent: "center",
     alignItems: "center",
   },
