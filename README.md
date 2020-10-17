@@ -11,8 +11,8 @@ React Native Mobile Application to prevent and detect early signs of breast canc
 - Breast cancer symptoms information
 
 ### Resources/Articles Used
-https://www.health24.com/Lifestyle/Woman/Your-body/Breast-self-examination-8-steps-20120721
-http://www.triple-white.com/2018/10/29/breast-self-exam-check/
-https://www.hopkinsmedicine.org/breast_center/breast_cancers_other_conditions/nipple_discharge.html
-https://womenscarefl.com/health-library-item/uncommon-breast-cancer-symptoms/
-https://www.healthline.com/health/breast-cancer-dimpling
+- https://www.health24.com/Lifestyle/Woman/Your-body/Breast-self-examination-8-steps-20120721
+- http://www.triple-white.com/2018/10/29/breast-self-exam-check/
+- https://www.hopkinsmedicine.org/breast_center/breast_cancers_other_conditions/nipple_discharge.html
+- https://womenscarefl.com/health-library-item/uncommon-breast-cancer-symptoms/
+- https://www.healthline.com/health/breast-cancer-dimpling
