@@ -24,7 +24,7 @@ const SelfExam = ({ navigation, width }) => {
       <Card
         style={styles.cardContainer}
         containerStyle={{
-          backgroundColor: "#ffdef7",
+          backgroundColor: "#fdebff",
           borderRadius: 10,
         }}
       >

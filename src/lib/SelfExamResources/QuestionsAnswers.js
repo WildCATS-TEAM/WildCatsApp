@@ -14,7 +14,6 @@ const listOfQuestionsAndAnswers = [
     options_3: [
       "Find affordable exam near me",
       "Learn more about breast cancer symptoms",
-      "Set a reminder to do self exam again in one month",
     ],
   },
   {
@@ -32,7 +31,6 @@ const listOfQuestionsAndAnswers = [
     options_3: [
       "Find affordable exam near me",
       "Learn more about breast cancer symptoms",
-      "Set a reminder to do self exam again in one month",
     ],
   },
   {
@@ -54,7 +52,6 @@ const listOfQuestionsAndAnswers = [
     options_3: [
       "Find affordable exam near me",
       "Learn more about breast cancer symptoms",
-      "Set a reminder to do self exam again in one month",
     ],
   },
   {
@@ -71,7 +68,6 @@ const listOfQuestionsAndAnswers = [
     options_3: [
       "Find affordable exam near me",
       "Learn more about breast cancer symptoms",
-      "Set a reminder to do self exam again in one month",
     ],
   },
   {
@@ -88,7 +84,6 @@ const listOfQuestionsAndAnswers = [
     options_3: [
       "Find affordable exam near me",
       "Learn more about breast cancer symptoms",
-      "Set a reminder to do self exam again in one month",
     ],
   },
   {
@@ -105,7 +100,6 @@ const listOfQuestionsAndAnswers = [
     options_3: [
       "Find affordable exam near me",
       "Learn more about breast cancer symptoms",
-      "Set a reminder to do self exam again in one month",
     ],
   },
 
@@ -125,7 +119,6 @@ const listOfQuestionsAndAnswers = [
     options_3: [
       "Find affordable exam near me",
       "Learn more about breast cancer symptoms",
-      "Set a reminder to do self exam again in one month",
     ],
   },
   {
@@ -142,7 +135,6 @@ const listOfQuestionsAndAnswers = [
     options_3: [
       "Find affordable exam near me",
       "Learn more about breast cancer symptoms",
-      "Set a reminder to do self exam again in one month",
     ],
   },
 ];
