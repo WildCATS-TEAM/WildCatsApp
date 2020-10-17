@@ -16,7 +16,7 @@ const Home = ({ navigation }) => {
               10-minutes
             </Text>
             <Text h1 h1Style={styles.selfExamHeader}>
-              Self Breast Exam
+              Breast Self Exam
             </Text>
           </View>
           <Button
